@@ -1,0 +1,82 @@
+/* ==UserStyle==
+@name           web.mamesosu.net - Jul 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    a github-like theme for mamestragram
+@author         Breadles @ https://github.com/breadles5/
+==/UserStyle== */
+@-moz-document domain("web.mamesosu.net") {
+    main,
+    .player-banner,
+    .player-info,
+    .bestpp,
+    .mostplays,
+    .recentplays,
+    .menu-title {
+        background: #0d1117 !important;
+        box-shadow: none !important
+    }
+    header,
+    .data,
+    .data .pp,
+    .data-passed .pp,
+    .edit-button,
+    .show-more,
+    .link-form > *,
+    .mobile.show > *,
+    .total-players,
+    main > div.box,
+    .ranking-data,
+    .dropdown.show > li,
+    .searchbox,
+    .menu,
+    .menu *,
+    article,
+    article section,
+    .header-title,
+    .list,
+    main > .page,
+    h1.title,
+    .ranking,
+    .ranking > .wrap,
+    .ranking-list,
+    .ranking-list > .ranking-table {
+        background: #161b22 !important;
+        box-shadow: none !important;
+    }
+    .doc-button {
+        background: #345c84 !important;
+        border-color: transparent !important;
+    }
+    table,
+    .txtbox,
+    form > button,
+    .user {
+        background: #232b36 !important;
+    }
+    td,
+    input[type="file"] {
+        color: white !important;
+    }
+    input[type="file"]::file-selector-button,
+    input[type="text"] {
+        background-color: #232b36 !important;
+        border-color: transparent !important;
+    }
+    .link-form {
+        background: transparent !important;
+        box-shadow: none !important
+    }
+    .mapbg {
+        border-radius: 10px 12px 12px 10px !important;
+    }
+    .pp {
+        border-radius: 0px 10px 10px 0px !important;
+    }
+    main .player-info {
+        overflow: hidden !important;
+    }
+    main .banner-box img {
+        border-radius: 15px;
+    }
+}
